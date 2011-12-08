@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 16px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -137,7 +137,6 @@ ul.posts {
 
     .site .footer .rss {
       margin-top: 1.1em;
-      margin-right: -.2em;
       float: right;
     }
 
@@ -161,6 +160,7 @@ ul.posts {
     border: 1px solid #000;
     color: #fff;
     padding: 0 .4em;
+    background: #222222;
   }
 
   #post ul,
@@ -170,9 +170,15 @@ ul.posts {
 
   #post code {
 /*    border: 1px solid #ddd;*/
-/*    background-color: #eef;*/
-    font-size: 85%;
+/*    background-color: #222222;*/
+    font-size: 75%;
     padding: 0 .2em;
+  }
+
+  #post p code {
+	background-color: #f1f1f1;
+	font-size: 90%;
+	font-style: italic;
   }
 
     #post pre code {
