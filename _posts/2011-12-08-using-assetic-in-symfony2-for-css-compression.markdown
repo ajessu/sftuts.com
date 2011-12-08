@@ -10,6 +10,7 @@ coming soon) developed by [Kris Wallsmith](http://twitter.com/kriswallsmith).
 
 We will be using it to compress our CSS files, thus reducing the time required
 to download stylesheets in our Symfony2 projects.
+<!--more-->
 Note: I will be using twig templates for all examples.
 
 ## 1. Install the YUI Compressor

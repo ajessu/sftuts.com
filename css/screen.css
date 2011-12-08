@@ -184,6 +184,12 @@ ul.posts {
     #post pre code {
       border: none;
     }
+  .excerpt {
+    margin-left: 7em
+  }
+  .more {
+    text-align: right;
+  }
 
   /* terminal */
 
