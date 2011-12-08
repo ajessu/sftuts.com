@@ -40,7 +40,7 @@ You just need to download/clone the library into your vendor folder.
 {% highlight bash %}
 cd vendor
 git clone https://github.com/doctrine/data-fixtures.git doctrine-data-fixtures
-{% endhighlight %}
+{% endhighlight %}	
 
 Enable the fixtures
 -------------------
