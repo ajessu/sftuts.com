@@ -2,4 +2,4 @@ markdown: rdiscount
 pygments: true
 permalink:   /:title.html
 
-exclude: ['Rakefile']
+exclude: ['Rakefile', 'README.markdown']
