@@ -1,6 +1,5 @@
 markdown: rdiscount
 pygments: true
-multiviews: true
 permalink:   /:title.html
 
 exclude: ['Rakefile', 'README.markdown']
