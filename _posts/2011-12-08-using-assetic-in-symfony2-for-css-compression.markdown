@@ -48,8 +48,8 @@ With Assetic:
 {% highlight jinja %}
 {% raw %}
 {% stylesheets output='css/compressed.css' filter='yui_css'
-                '@AcmeFooBundle/Resources/css/mystyle1.css' 
-                '@AcmeFooBundle/Resources/css/mystyle2.css' %}
+                '@AcmeFooBundle/Resources/public/css/mystyle1.css' 
+                '@AcmeFooBundle/Resources/public/css/mystyle2.css' %}
                 {# If your files are in web/css/, call them with: 'css/mystyle.css' #}
     <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen" />
 {% endstylesheets %}
