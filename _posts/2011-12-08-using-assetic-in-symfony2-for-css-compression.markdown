@@ -50,8 +50,7 @@ With Assetic:
 {% stylesheets output='css/compressed.css' filter='yui_css'
                 '@AcmeFooBundle/Resources/css/mystyle1.css' 
                 '@AcmeFooBundle/Resources/css/mystyle2.css' %}
-                {# If your files are in web/css/mystyle1.css
-                    call them with: 'css/mystyle.css' #}
+                {# If your files are in web/css/, call them with: 'css/mystyle.css' #}
     <link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen" />
 {% endstylesheets %}
 {% endraw %}
